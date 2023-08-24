@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TaskEditor</string>
+    <string name="enter_a_new_task"  />
+    <string name="addTask" />
+    <string name="all" />
+    <string name="completed" />
+    <string name="incomplete" />
+    <string name="enter_a_new_task2">Enter a new task</string>
+    <string name="add_new_task2">Add New Task</string>
+    <string name="all2">All</string>
+    <string name="completed2">Completed</string>
+    <string name="incomplete2">Incomplete</string>
+    <string name="enter_new_task_title">Enter new task title</string>
+    <string name="save">Save</string>
+    <string name="edittexttask">editTextTask</string>
+    <string name="edit_your_task">Edit your task</string>
+</resources>

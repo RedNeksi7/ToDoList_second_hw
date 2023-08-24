@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/teal_200">
+    <data>
+        <variable
+            name="task"
+            type="com.geeks.todolist_second.model.Task" />
+        <variable
+            name="viewModel"
+            type="com.geeks.todolist_second.model.TaskViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="@{task.isCompleted}"/>
+
+        <EditText
+            android:id="@+id/viewText_task"
+            android:layout_width="0dp"
+            android:hint="@string/edit_your_task"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:text="@{task.title}" />
+
+        <Button
+            android:id="@+id/save_edit"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+
+
+    </LinearLayout>
+
+</layout>
